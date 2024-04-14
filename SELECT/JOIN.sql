@@ -25,7 +25,7 @@ FROM
                     TableThree
             ) AS TableFour
         ON
-            TableTwo.Detail = REPLACE(TableFour.Explanation, 'EXP=(', ''), ')', '') 
+            TableTwo.Detail = REPLACE(REPLACE(TableFour.Explanation, 'EXP=(', ''), ')', '') 
     ) As TableFive
 WHERE
     Duration > 5
