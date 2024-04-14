@@ -1,5 +1,5 @@
 -- TableName: TableOne, TableTwo, TableThree
--- Column: EventName, StartDate, EndDate
+-- Column: EventName, Explanation, StartDate, EndDate
 
 SELECT
     *
