@@ -1,5 +1,5 @@
--- TableName: DateDiffExample
--- Column: EventName, StartDate, EndDate
+-- TableName: FormatTable
+-- Column: EventName, startevent, endevent
 
 SELECT 
     EventName,
